@@ -1,0 +1,18 @@
+---
+title: "mtcars"
+author: "Vlad Tarashansky"
+date: "2/28/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## mtcars data
+
+Lets take a look at the data
+
+```{r cars}
+summary(mtcars)
+```
